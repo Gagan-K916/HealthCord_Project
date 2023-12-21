@@ -15,23 +15,18 @@
           <span class="text-wrapper">Already have an account? </span><a href= {% url 'login-page' %} target="_blank" rel="noopener noreferrer"
           > <span class="span">Log in</a></span>
         </p>
-        <div class="form">
-          <div class="frame">
-            <div class="group">
-              <div class="overlap-group-wrapper">
-                <div class="overlap-group"><div class="text-wrapper-2">Name</div></div>
-              </div>
-            </div>
-            <div class="overlap-wrapper">
-              <div class="overlap-group"><div class="text-wrapper-2">Email</div></div>
-            </div>
-            <div class="overlap-wrapper">
-              <div class="overlap-group"><div class="text-wrapper-2">Password</div></div>
-            </div>
-          </div>
+        <div class = 'content-section'>
+        <form method = "POST">
+          {% csrf_token %}
+          <fieldset class = 'form-group'>
+            {{ form }}
+          </fieldset>
+        </div>
+        </form>
+      
           <a href="#" target="_blank" rel="noopener noreferrer"
             ><div class="div-wrapper">
-              <div class="overlap"><div class="text-wrapper-3">Register</div></div>
+              <button class="overlap" type = 'button'><div class="text-wrapper-3" >Register</div></div>
             </div></a
           >
         </div>
