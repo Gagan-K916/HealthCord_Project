@@ -1,0 +1,303 @@
+.element-minimalism-login {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.element-minimalism-login .div {
+  background-color: #ffffff;
+  width: 1366px;
+  height: 768px;
+  position: relative;
+}
+
+.element-minimalism-login .overlap {
+  position: absolute;
+  width: 683px;
+  height: 700px;
+  top: 34px;
+  left: 649px;
+  background-image: url(./img/rectangle-4.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.element-minimalism-login .rectangle {
+  position: absolute;
+  width: 683px;
+  height: 700px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.element-minimalism-login .overlap-group {
+  position: absolute;
+  width: 366px;
+  height: 526px;
+  top: 122px;
+  left: 159px;
+}
+
+.element-minimalism-login .group {
+  position: absolute;
+  width: 355px;
+  height: 526px;
+  top: 0;
+  left: 9px;
+}
+
+.element-minimalism-login .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Smooch Sans", Helvetica;
+  font-weight: 700;
+  color: #1c1c1c;
+  font-size: 120px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.element-minimalism-login .text-wrapper-2 {
+  position: absolute;
+  top: 86px;
+  left: 122px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #1c1c1c;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.element-minimalism-login .text-wrapper-3 {
+  position: absolute;
+  top: 502px;
+  left: 73px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #1c1c1c;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.element-minimalism-login .text-wrapper-4 {
+  position: absolute;
+  top: 502px;
+  left: 228px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #1c1c1c;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.element-minimalism-login .overlap-group-wrapper {
+  position: absolute;
+  width: 366px;
+  height: 24px;
+  top: 380px;
+  left: 0;
+}
+
+.element-minimalism-login .overlap-group-2 {
+  position: relative;
+  width: 364px;
+  height: 24px;
+}
+
+.element-minimalism-login .text-wrapper-5 {
+  position: absolute;
+  top: 0;
+  left: 171px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #1c1c1c;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.element-minimalism-login .subtract {
+  position: absolute;
+  width: 364px;
+  height: 1px;
+  top: 11px;
+  left: 0;
+}
+
+.element-minimalism-login .overlap-wrapper {
+  position: absolute;
+  width: 366px;
+  height: 52px;
+  top: 228px;
+  left: 0;
+}
+
+.element-minimalism-login .overlap-2 {
+  position: relative;
+  width: 364px;
+  height: 52px;
+  background-color: #f2f2f2;
+  border-radius: 13px;
+}
+
+.element-minimalism-login .text-wrapper-6 {
+  position: absolute;
+  top: 17px;
+  left: 48px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #1c1c1c;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.element-minimalism-login .frame {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 14px;
+  left: 18px;
+}
+
+.element-minimalism-login .div-wrapper {
+  position: absolute;
+  width: 366px;
+  height: 52px;
+  top: 152px;
+  left: 0;
+}
+
+.element-minimalism-login .group-2 {
+  position: absolute;
+  width: 366px;
+  height: 52px;
+  top: 304px;
+  left: 0;
+}
+
+.element-minimalism-login .overlap-3 {
+  position: relative;
+  width: 364px;
+  height: 52px;
+  background-color: #1c1c1c;
+  border-radius: 13px;
+}
+
+.element-minimalism-login .text-wrapper-7 {
+  position: absolute;
+  top: 17px;
+  left: 166px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.element-minimalism-login .group-wrapper {
+  position: absolute;
+  width: 364px;
+  height: 52px;
+  top: 428px;
+  left: 0;
+}
+
+.element-minimalism-login .group-3 {
+  height: 52px;
+  border-radius: 13px;
+  border: 1px solid;
+  border-color: #1c1c1c;
+}
+
+.element-minimalism-login .group-4 {
+  position: relative;
+  width: 147px;
+  height: 30px;
+  top: 10px;
+  left: 109px;
+}
+
+.element-minimalism-login .login-with-google {
+  position: absolute;
+  top: 6px;
+  left: 38px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #1c1c1c;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.element-minimalism-login .span {
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #1c1c1c;
+  font-size: 12px;
+  letter-spacing: 0;
+}
+
+.element-minimalism-login .text-wrapper-8 {
+  font-weight: 700;
+}
+
+.element-minimalism-login .google {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.element-minimalism-login .vector {
+  position: absolute;
+  width: 68px;
+  height: 137px;
+  top: 567px;
+  left: 0;
+}
+
+.element-minimalism-login .text-wrapper-9 {
+  position: absolute;
+  height: 42px;
+  top: 43px;
+  left: 97px;
+  font-family: "Manrope", Helvetica;
+  font-weight: 700;
+  color: #1e1e1e;
+  font-size: 19.8px;
+  letter-spacing: 0;
+  line-height: 41.6px;
+  white-space: nowrap;
+}
+
+.element-minimalism-login .rectangle-2 {
+  position: absolute;
+  width: 28px;
+  height: 25px;
+  top: 56px;
+  left: 61px;
+  background-color: var(--green);
+  border-radius: 0px 8.23px 8.23px 0px;
+}
+
+.element-minimalism-login .rectangle-3 {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  top: 34px;
+  left: 61px;
+  background-color: var(--green);
+  border-radius: 0px 8.23px 8.23px 0px;
+}
