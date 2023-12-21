@@ -15,7 +15,7 @@
           <div class="footer-CTA">
             <footer class="footer">
               <div class="logo">
-                <a href="#" target="_blank" rel="noopener noreferrer"><div class="boldo">HealthCord</div></a>
+                <a href={% url 'home-page' %} target="_self" rel="noopener noreferrer"><div class="boldo">HealthCord</div></a>
                 <div class="logo-shape">
                   <div class="rectangle"></div>
                   <div class="rectangle-2"></div>
@@ -180,10 +180,9 @@
                 <p class="text-wrapper-17">We Care, We Connect, We Empower - Your Journey to Vitality.</p>
               </div>
               <div class="frame-7">
-                <a href= {% url 'register-page' %} target="_blank" rel="noopener noreferrer"
-                  ><div class="start-now-wrapper"><div class="start-now-2">Register</div></div></a
-                >
-                <a href="#" target="_blank" rel="noopener noreferrer"
+                <a href= '#' target = "_self" rel="noopener noreferrer"
+                  ><div class="start-now-wrapper"><div class="start-now-2">Register</div></div></a>
+                <a href={% url 'login-page' %} target="_self" rel="noopener noreferrer"
                   ><div class="buttons-2"><div class="start-now-3">Login</div></div></a
                 >
               </div>
@@ -201,9 +200,9 @@
                   </div></div
               ></a>
               <div class="navigation">
-                <a href="#" target="_blank" rel="noopener noreferrer"><div class="text-wrapper-18">Research</div></a>
+                <a href={% url 'research-page' %} target="_blank" rel="noopener noreferrer"><div class="text-wrapper-18">Research</div></a>
                 <a href="#" target="_blank" rel="noopener noreferrer"><div class="text-wrapper-18">About</div></a>
-                <a href="#" target="_blank" rel="noopener noreferrer"
+                <a href={% url 'login-page' %} target="_self" rel="noopener noreferrer"
                   ><div class="login-button"><div class="start-now-4">Login</div></div></a
                 >
               </div>
