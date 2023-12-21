@@ -1,0 +1,263 @@
+.register {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.register .div {
+  background-color: #ffffff;
+  width: 1920px;
+  height: 1024px;
+  position: relative;
+}
+
+.register .already-have-an {
+  position: absolute;
+  top: 869px;
+  left: 428px;
+  font-family: "Urbanist-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 19.1px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.register .text-wrapper {
+  color: #000000;
+}
+
+.register .span {
+  font-family: "Urbanist-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #fec00f;
+}
+
+.register .form {
+  position: absolute;
+  width: 501px;
+  height: 326px;
+  top: 482px;
+  left: 314px;
+}
+
+.register .frame {
+  display: flex;
+  flex-direction: column;
+  width: 501px;
+  height: 234px;
+  align-items: flex-start;
+  gap: 23.86px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.register .group {
+  position: relative;
+  width: 501.16px;
+  height: 62.05px;
+}
+
+.register .overlap-group-wrapper {
+  width: 503px;
+  height: 62px;
+}
+
+.register .overlap-group {
+  height: 62px;
+  border-radius: 7.16px;
+  border: 1.19px solid;
+  border-color: #d2d2d2;
+  position: relative;
+  width: 501px;
+}
+
+.register .text-wrapper-2 {
+  position: absolute;
+  top: 24px;
+  left: 21px;
+  font-family: "Cabin-Regular", Helvetica;
+  font-weight: 400;
+  color: #2e2e2e;
+  font-size: 19.1px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.register .overlap-wrapper {
+  position: relative;
+  width: 503.16px;
+  height: 62.05px;
+  margin-right: -2px;
+}
+
+.register .div-wrapper {
+  position: absolute;
+  width: 503px;
+  height: 60px;
+  top: 266px;
+  left: 0;
+}
+
+.register .overlap {
+  height: 60px;
+  background-color: #000000;
+  border-radius: 35.8px;
+  position: relative;
+  width: 501px;
+}
+
+.register .text-wrapper-3 {
+  position: absolute;
+  top: 24px;
+  left: 206px;
+  font-family: "Cabin-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 19.1px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.register .seperater {
+  display: inline-flex;
+  align-items: center;
+  gap: 19.09px;
+  position: absolute;
+  top: 421px;
+  left: 463px;
+}
+
+.register .line {
+  position: relative;
+  width: 71.59px;
+  height: 1.19px;
+}
+
+.register .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.19px;
+  font-family: "Cabin-Regular", Helvetica;
+  font-weight: 400;
+  color: #afa7a7;
+  font-size: 19.1px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.register .glogin {
+  position: absolute;
+  width: 499px;
+  height: 62px;
+  top: 311px;
+  left: 315px;
+  border-radius: 7.16px;
+  border: 1.19px solid;
+  border-color: #d2d2d2;
+}
+
+.register .frame-2 {
+  display: flex;
+  width: 217px;
+  height: 24px;
+  align-items: center;
+  gap: 14.32px;
+  position: relative;
+  top: 17px;
+  left: 128px;
+}
+
+.register .google {
+  position: relative;
+  width: 23.86px;
+  height: 23.86px;
+  object-fit: cover;
+}
+
+.register .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  margin-right: -0.02px;
+  font-family: "Cabin-Regular", Helvetica;
+  font-weight: 400;
+  color: #2e2e2e;
+  font-size: 19.1px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.register .heading {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 31.4px;
+  position: absolute;
+  top: 188px;
+  left: 407px;
+}
+
+.register .welcome {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Smooch Sans", Helvetica;
+  font-weight: 700;
+  color: #1c1c1c;
+  font-size: 65px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.register .image {
+  position: absolute;
+  width: 786px;
+  height: 1024px;
+  top: 0;
+  left: 1134px;
+}
+
+.register .text-wrapper-6 {
+  position: absolute;
+  width: 205px;
+  height: 78px;
+  top: 68px;
+  left: 117px;
+  font-family: "Manrope-Bold", Helvetica;
+  font-weight: 700;
+  color: #1e1e1e;
+  font-size: 26px;
+  letter-spacing: 0;
+  line-height: 54.7px;
+}
+
+.register .rectangle {
+  width: 51px;
+  height: 46px;
+  top: 91px;
+  position: absolute;
+  left: 51px;
+  background-color: var(--green);
+  border-radius: 0px 10.8px 10.8px 0px;
+}
+
+.register .rectangle-2 {
+  width: 36px;
+  height: 35px;
+  top: 50px;
+  position: absolute;
+  left: 51px;
+  background-color: var(--green);
+  border-radius: 0px 10.8px 10.8px 0px;
+}

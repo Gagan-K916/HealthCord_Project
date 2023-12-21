@@ -118,7 +118,7 @@
                     </div>
                   </div>
                 </div>
-                <a href="#" target="_blank" rel="noopener noreferrer"
+                <a href={% url 'login-page' %} target="_self" rel="noopener noreferrer"
                   ><div class="buttons"><div class="start-now">Dive in</div></div></a
                 >
               </div>
@@ -180,7 +180,7 @@
                 <p class="text-wrapper-17">We Care, We Connect, We Empower - Your Journey to Vitality.</p>
               </div>
               <div class="frame-7">
-                <a href= '#' target = "_self" rel="noopener noreferrer"
+                <a href= {% url 'register-page' %} target = "_self" rel="noopener noreferrer"
                   ><div class="start-now-wrapper"><div class="start-now-2">Register</div></div></a>
                 <a href={% url 'login-page' %} target="_self" rel="noopener noreferrer"
                   ><div class="buttons-2"><div class="start-now-3">Login</div></div></a
@@ -229,7 +229,7 @@
               </div>
             </div>
           </div>
-          <img class="element-generated" src="users\templates\users\img\789-generated-1.png" />
+          <img class="element-generated" src={% static 'users/img/789-generated-1.png' %} />
         </div>
         <div class="overlap-7">
           <div class="service-2">

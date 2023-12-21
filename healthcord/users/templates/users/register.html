@@ -1,0 +1,59 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href={% static 'users/globals_register.css' %} />
+    <link rel="stylesheet" href={% static 'users/styleguide_register.css' %} />
+    <link rel="stylesheet" href={% static 'users/style_register.css' %} />
+  </head>
+  <body>
+    <div class="register">
+      <div class="div">
+        <p class="already-have-an">
+          <span class="text-wrapper">Already have an account? </span><a href= {% url 'login-page' %} target="_blank" rel="noopener noreferrer"
+          > <span class="span">Log in</a></span>
+        </p>
+        <div class="form">
+          <div class="frame">
+            <div class="group">
+              <div class="overlap-group-wrapper">
+                <div class="overlap-group"><div class="text-wrapper-2">Name</div></div>
+              </div>
+            </div>
+            <div class="overlap-wrapper">
+              <div class="overlap-group"><div class="text-wrapper-2">Email</div></div>
+            </div>
+            <div class="overlap-wrapper">
+              <div class="overlap-group"><div class="text-wrapper-2">Password</div></div>
+            </div>
+          </div>
+          <a href="#" target="_blank" rel="noopener noreferrer"
+            ><div class="div-wrapper">
+              <div class="overlap"><div class="text-wrapper-3">Register</div></div>
+            </div></a
+          >
+        </div>
+        <div class="seperater">
+          <img class="line" src= {% static 'users/img/line-1.svg' %} />
+          <div class="text-wrapper-4">Or</div>
+          <img class="line" src= {% static 'users/img/line-1.svg' %} />
+        </div>
+        <a href="#" target="_blank" rel="noopener noreferrer"
+          ><div class="glogin">
+            <div class="frame-2">
+              <img class="google" src= {% static 'users/img/google-1.png' %} />
+              <div class="text-wrapper-5">Continue With Google</div>
+            </div>
+          </div></a
+        >
+        <div class="heading"><div class="welcome">WELCOME</div></div>
+        <img class="image" src= {% static 'users/img/image.png' %} />
+        <a href= {% url 'home-page' %} target="_self" rel="noopener noreferrer"><div class="text-wrapper-6">HealthCord</div></a>
+        <div class="rectangle"></div>
+        <div class="rectangle-2"></div>
+      </div>
+    </div>
+  </body>
+</html>
