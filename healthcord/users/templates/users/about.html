@@ -1,0 +1,181 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href= {% static 'users/globals_about.css' %} />
+    <link rel="stylesheet" href={% static 'users/styleguide_about.css' %} />
+    <link rel="stylesheet" href={% static 'users/style_about.css' %} />
+    <title>About Us</title>
+  </head>
+  <body>
+    <div class="landing-page">
+      <div class="div">
+        <footer class="footer">
+          <div class="frame"><a href={% url 'home-page' %} target="_self" rel="noopener noreferrer"
+            ><a href = {% url 'home-page' %} target="_self">
+            <div class="text-wrapper">HealthCord</div></a>
+            <p class="this-free-app">
+              This free App provides a solution to your health needs by offering<br />you a one-stop access to complete
+              information about various<br />medical checkups. This App carries simple tips and advice to<br />help you
+              maintain a healthy lifestyle.
+            </p>
+          </div>
+          <div class="frame-2">
+            <div class="frame-3">
+              <div class="text-wrapper-2">Overview</div>
+              <div class="frame-4">
+                <div class="text-wrapper-3">Checking Health</div>
+                <div class="text-wrapper-4">Find Docter</div>
+                <div class="text-wrapper-4">Make a Schedule</div>
+              </div>
+            </div>
+            <div class="frame-3">
+              <div class="text-wrapper-2">Company</div>
+              <div class="frame-4">
+                <div class="text-wrapper-3">Home</div>
+                <div class="text-wrapper-4">About</div>
+                <div class="text-wrapper-4">Services</div>
+              </div>
+            </div>
+            <div class="frame-3">
+              <div class="text-wrapper-2">Explore</div>
+              <div class="frame-4">
+                <div class="text-wrapper-3">Terms &amp; Conds</div>
+                <div class="text-wrapper-4">Privacy Police</div>
+                <div class="text-wrapper-4">Cookies</div>
+              </div>
+            </div>
+            <div class="frame-3">
+              <div class="text-wrapper-2">Social Media</div>
+              <div class="frame-5">
+                <img class="img" src={% static 'users/img/brand-facebook.svg' %} />
+                <img class="img" src={% static 'users/img/brand-instagram.svg' %} />
+                <img class="img" src={% static 'users/img/brand-twitter.svg' %} />
+              </div>
+            </div>
+          </div>
+        </footer>
+        <div class="testimonial">
+          <div class="testimonial-2">
+            <div class="overlap-group">
+              <div class="overlap-group">
+                <img class="rectangle" src={% static 'users/img/rectangle-14.svg' %} />
+                <p class="healthcord-is-an">
+                  “HealthCord is an website appplication for you to feel better or get medical help. Healthcare
+                  is&nbsp;&nbsp;offered to you at 24/7 with no<br />appointment needed”
+                </p>
+                <img class="group" src={% static 'users/img/group-5.png' %} />
+              </div>
+              <div class="text-wrapper-5">Naufal Hidayat</div>
+            </div>
+            <img class="arrow-long-right" src={% static 'users/img/arrow-long-right.png' %} />
+            <img class="arrow-long-right-2" src={% static 'users/img/arrow-long-right.png' %} />
+          </div>
+          <div class="title">
+            <p class="p">their impression after using this application</p>
+            <p class="text-wrapper-6">Our patients feedback about us</p>
+          </div>
+        </div>
+        <div class="schedule-section">
+          <div class="frame-6">
+            <div class="frame-7">
+              <div class="text-wrapper-7">Make it easy !</div>
+              <p class="text-wrapper-8">Manage your health care routine with ease with our advanced methadologies</p>
+            </div>
+            <p class="healthcare-is-a-very">
+              Healthcare is a very painful process, especially if you’re not taking care<br />of your health and having
+              regular check-ups. HealhtyCord makes it<br />easier for everyone to manage your routines.
+            </p>
+            <div class="frame-8">
+              <div class="frame-9">
+                <div class="check-wrapper"><img class="check" src={% static 'users/img/check-3.svg' %} /></div>
+                <p class="text-wrapper-9">Connect to verified Doctors around the world</p>
+              </div>
+              <div class="frame-10">
+                <div class="check-wrapper"><img class="check" src={% static 'users/img/check-3.svg' %} /></div>
+                <div class="text-wrapper-9">Find persnalised Doctor reccomendations</div>
+              </div>
+            </div>
+            <a href = {% url 'register-page' %} target = "_self">
+            <div class="div-wrapper"><div class="text-wrapper-10">Try us</div></div></a>
+          </div>
+          <img class="group-2" src={% static 'users/img/group-4.png' %} />
+        </div>
+        <div class="step-section">
+          <div class="card">
+            <div class="frame-11">
+              <div class="text-wrapper-11">Check health complaints</div>
+              <p class="check-the-disease-so">Check the disease so you can<br />easily choose the right specialist</p>
+              <img class="img-2" src={% static 'users/img/iconly-bulk-search.svg' %} />
+            </div>
+            <div class="rectangle-2"></div>
+          </div>
+          <div class="card-2">
+            <div class="frame-12">
+              <div class="text-wrapper-12">Choose doctor Specialist</div>
+              <p class="choose-a-specialist">Choose a specialist according<br />to your disease complaints</p>
+              <img class="img-2" src={% static 'users/img/iconly-bulk-profile.svg' %} />
+            </div>
+            <div class="rectangle-2"></div>
+          </div>
+          <div class="card-3">
+            <div class="frame-13">
+              <div class="text-wrapper-13">Make a Schedule</div>
+              <p class="make-a-schedule-with">
+                Make a schedule with the doctor<br />concerned so you can start the<br />examination
+              </p>
+              <img class="img-2" src={% static 'users/img/iconly-bulk-calendar.svg' %} />
+            </div>
+            <div class="rectangle-2"></div>
+          </div>
+          <div class="card-4">
+            <div class="frame-12">
+              <div class="text-wrapper-14">Get your Solutions</div>
+              <div class="overlap-group-2">
+                <div class="text"></div>
+                <p class="after-conducting-an">
+                  After conducting an examination<br />with a specialist we can help find<br />the right healing method
+                </p>
+              </div>
+              <img class="img-2" src={% static 'users/img/iconly-bulk-star-1.svg' %} />
+            </div>
+            <div class="rectangle-2"></div>
+          </div>
+          <div class="title-2">
+            <div class="text-wrapper-7">Fast Solutions</div>
+            <p class="text-wrapper-15">step by step to get your solutions</p>
+          </div>
+        </div>
+        <header class="header">
+          <div class="overlap">
+            <div class="ellipse"></div>
+            <div class="card-profile-doctor">
+              <img class="group-3" src={% static 'users/img/group-1.png' %} />
+              <div class="frame-14">
+                <div class="text-wrapper-16">Dr. Shimanta</div>
+                <div class="text-wrapper-17">Skin Specialist</div>
+              </div>
+              <div class="frame-15"><div class="text-wrapper-18">Make Schedule</div></div>
+            </div>
+            <img class="female-doctor" src={% static 'users/img/female-doctor-fococlipping-removed-1.png' %} />
+            <div class="frame-wrapper">
+              <div class="frame-16"><a href = {% url 'home-page' %} target ='_self'><div class="text-wrapper-19">Back to Home</div></a></div>
+            </div>
+          </div>
+          <p class="medical-care-now">
+            <span class="span">Medical Care Now<br /><br />Simplified For<br /></span>
+            <span class="text-wrapper-20"><br />Everyone</span>
+          </p>
+          <div class="navbar">
+            
+            <div class="frame-17"><div class="text-wrapper-21"><a href = {% url 'home-page' %} target="_self">HealthCord</a></div></div>
+          </div>
+          <div class="rectangle-3"></div>
+          <img class="rectangle-4" src={% static 'users/img/rectangle-1266.svg' %} />
+        </header>
+      </div>
+    </div>
+  </body>
+</html>

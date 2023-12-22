@@ -1,0 +1,889 @@
+.landing-page {
+  background-color: #e8faff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.landing-page .div {
+  background-color: #e8faff;
+  width: 1920px;
+  height: 3400px;
+  position: relative;
+}
+
+.landing-page .footer {
+  display: flex;
+  width: 1808px;
+  height: 187px;
+  align-items: flex-start;
+  gap: 150px;
+  position: absolute;
+  top: 3044px;
+  left: 56px;
+  background-color: transparent;
+}
+
+.landing-page .frame {
+  display: flex;
+  flex-direction: column;
+  width: 467px;
+  height: 166px;
+  align-items: flex-start;
+  gap: 12px;
+  position: relative;
+}
+
+.landing-page .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Manrope", Helvetica;
+  font-weight: 700;
+  color: var(--black);
+  font-size: 24px;
+  letter-spacing: 0.72px;
+  line-height: normal;
+}
+
+.landing-page .this-free-app {
+  position: relative;
+  width: fit-content;
+  font-family: "Manrope", Helvetica;
+  font-weight: 400;
+  color: var(--black);
+  font-size: 14px;
+  letter-spacing: 0.21px;
+  line-height: 20px;
+}
+
+.landing-page .frame-2 {
+  display: flex;
+  width: 755px;
+  height: 166px;
+  align-items: flex-start;
+  gap: 70px;
+  position: relative;
+}
+
+.landing-page .frame-3 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.landing-page .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Manrope", Helvetica;
+  font-weight: 700;
+  color: var(--black);
+  font-size: 20px;
+  letter-spacing: 0.6px;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.landing-page .frame-4 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.landing-page .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Manrope", Helvetica;
+  font-weight: 400;
+  color: var(--black);
+  font-size: 14px;
+  letter-spacing: 0.21px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.landing-page .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  font-family: "Manrope", Helvetica;
+  font-weight: 400;
+  color: var(--black);
+  font-size: 14px;
+  letter-spacing: 0.21px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.landing-page .frame-5 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.landing-page .img {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.landing-page .testimonial {
+  position: absolute;
+  width: 1845px;
+  height: 619px;
+  top: 2165px;
+  left: 0;
+}
+
+.landing-page .testimonial-2 {
+  position: absolute;
+  width: 1849px;
+  height: 456px;
+  top: 163px;
+  left: 0;
+}
+
+.landing-page .overlap-group {
+  position: absolute;
+  width: 1389px;
+  height: 456px;
+  top: 0;
+  left: 0;
+}
+
+.landing-page .rectangle {
+  position: absolute;
+  width: 1389px;
+  height: 353px;
+  top: 0;
+  left: 0;
+}
+
+.landing-page .healthcord-is-an {
+  position: absolute;
+  width: 567px;
+  top: 93px;
+  left: 751px;
+  font-family: "Manrope", Helvetica;
+  font-weight: 400;
+  color: var(--black);
+  font-size: 25px;
+  text-align: justify;
+  letter-spacing: 0.75px;
+  line-height: 40px;
+}
+
+.landing-page .group {
+  position: absolute;
+  width: 449px;
+  height: 375px;
+  top: 81px;
+  left: 104px;
+}
+
+.landing-page .text-wrapper-5 {
+  position: absolute;
+  width: 154px;
+  top: 404px;
+  left: 751px;
+  font-family: "Manrope", Helvetica;
+  font-weight: 700;
+  color: var(--black);
+  font-size: 20px;
+  letter-spacing: 0.6px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.landing-page .arrow-long-right {
+  position: absolute;
+  width: 41px;
+  height: 40px;
+  top: 393px;
+  left: 1804px;
+}
+
+.landing-page .arrow-long-right-2 {
+  position: absolute;
+  width: 41px;
+  height: 40px;
+  top: 393px;
+  left: 1745px;
+}
+
+.landing-page .title {
+  position: absolute;
+  width: 643px;
+  height: 95px;
+  top: 0;
+  left: 701px;
+}
+
+.landing-page .p {
+  position: absolute;
+  width: 368px;
+  top: 68px;
+  left: 158px;
+  font-family: "Manrope", Helvetica;
+  font-weight: 400;
+  color: var(--grey);
+  font-size: 14px;
+  letter-spacing: 0.21px;
+  line-height: 20px;
+}
+
+.landing-page .text-wrapper-6 {
+  position: absolute;
+  width: 639px;
+  top: 0;
+  left: 0;
+  font-family: "Manrope", Helvetica;
+  font-weight: 700;
+  color: var(--black);
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0.48px;
+  line-height: 40px;
+}
+
+.landing-page .schedule-section {
+  position: absolute;
+  width: 1809px;
+  height: 600px;
+  top: 1436px;
+  left: 0;
+}
+
+.landing-page .frame-6 {
+  display: flex;
+  flex-direction: column;
+  width: 670px;
+  height: 551px;
+  align-items: flex-start;
+  gap: 26px;
+  position: absolute;
+  top: 25px;
+  left: 1139px;
+}
+
+.landing-page .frame-7 {
+  display: flex;
+  flex-direction: column;
+  width: 578px;
+  height: 165px;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+}
+
+.landing-page .text-wrapper-7 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Manrope", Helvetica;
+  font-weight: 700;
+  color: var(--primary);
+  font-size: 14px;
+  letter-spacing: 0.42px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.landing-page .text-wrapper-8 {
+  position: relative;
+  width: 633px;
+  margin-right: -55px;
+  font-family: "Manrope", Helvetica;
+  font-weight: 700;
+  color: var(--black);
+  font-size: 32px;
+  letter-spacing: 0.48px;
+  line-height: 40px;
+}
+
+.landing-page .healthcare-is-a-very {
+  position: relative;
+  width: 619px;
+  height: 90px;
+  font-family: "Manrope", Helvetica;
+  font-weight: 400;
+  color: var(--grey);
+  font-size: 14px;
+  letter-spacing: 0.28px;
+  line-height: 20px;
+}
+
+.landing-page .frame-8 {
+  display: flex;
+  flex-direction: column;
+  width: 324px;
+  height: 92px;
+  align-items: flex-start;
+  gap: 14px;
+  position: relative;
+}
+
+.landing-page .frame-9 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-right: -24px;
+}
+
+.landing-page .check-wrapper {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background-color: var(--primary);
+  border-radius: 12px;
+}
+
+.landing-page .check {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 4px;
+  left: 4px;
+}
+
+.landing-page .text-wrapper-9 {
+  position: relative;
+  width: fit-content;
+  font-family: "Manrope", Helvetica;
+  font-weight: 600;
+  color: var(--black);
+  font-size: 14px;
+  letter-spacing: 0.28px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.landing-page .frame-10 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.landing-page .div-wrapper {
+  display: flex;
+  width: 310px;
+  height: 78px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 16px 36px;
+  position: relative;
+  background-color: var(--primary);
+  border-radius: 10px;
+}
+
+.landing-page .text-wrapper-10 {
+  position: relative;
+  width: fit-content;
+  font-family: "Manrope", Helvetica;
+  font-weight: 500;
+  color: var(--white);
+  font-size: 20px;
+  letter-spacing: 0.6px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.landing-page .group-2 {
+  position: absolute;
+  width: 931px;
+  height: 600px;
+  top: 0;
+  left: 0;
+}
+
+.landing-page .step-section {
+  position: absolute;
+  width: 1780px;
+  height: 442px;
+  top: 820px;
+  left: 65px;
+}
+
+.landing-page .card {
+  position: absolute;
+  width: 376px;
+  height: 319px;
+  top: 123px;
+  left: 0;
+}
+
+.landing-page .frame-11 {
+  position: absolute;
+  width: 376px;
+  height: 315px;
+  top: 4px;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 0px 0px 10px 10px;
+  overflow: hidden;
+  box-shadow: 0px 10px 40px #1212121a;
+}
+
+.landing-page .text-wrapper-11 {
+  position: absolute;
+  width: 233px;
+  top: 144px;
+  left: 52px;
+  font-family: "Manrope", Helvetica;
+  font-weight: 700;
+  color: var(--black);
+  font-size: 14px;
+  letter-spacing: 0.42px;
+  line-height: 28px;
+}
+
+.landing-page .check-the-disease-so {
+  position: absolute;
+  width: 253px;
+  top: 200px;
+  left: 52px;
+  font-family: "Manrope", Helvetica;
+  font-weight: 400;
+  color: var(--grey);
+  font-size: 12px;
+  letter-spacing: 0.36px;
+  line-height: 16px;
+}
+
+.landing-page .img-2 {
+  position: absolute;
+  width: 52px;
+  height: 56px;
+  top: 70px;
+  left: 52px;
+}
+
+.landing-page .rectangle-2 {
+  position: absolute;
+  width: 376px;
+  height: 4px;
+  top: 0;
+  left: 0;
+  background-color: var(--primary);
+}
+
+.landing-page .card-2 {
+  height: 320px;
+  top: 122px;
+  left: 476px;
+  position: absolute;
+  width: 376px;
+}
+
+.landing-page .frame-12 {
+  position: absolute;
+  width: 376px;
+  height: 316px;
+  top: 4px;
+  left: 0;
+  background-color: var(--white);
+  border-radius: 0px 0px 10px 10px;
+  overflow: hidden;
+  box-shadow: 0px 10px 40px #1212121a;
+}
+
+.landing-page .text-wrapper-12 {
+  position: absolute;
+  width: 237px;
+  top: 144px;
+  left: 52px;
+  font-family: "Manrope", Helvetica;
+  font-weight: 700;
+  color: var(--black);
+  font-size: 14px;
+  letter-spacing: 0.42px;
+  line-height: 28px;
+}
+
+.landing-page .choose-a-specialist {
+  position: absolute;
+  width: 231px;
+  top: 200px;
+  left: 52px;
+  font-family: "Manrope", Helvetica;
+  font-weight: 400;
+  color: var(--grey);
+  font-size: 12px;
+  letter-spacing: 0.36px;
+  line-height: 16px;
+}
+
+.landing-page .card-3 {
+  height: 319px;
+  top: 123px;
+  left: 941px;
+  position: absolute;
+  width: 376px;
+}
+
+.landing-page .frame-13 {
+  position: absolute;
+  width: 376px;
+  height: 315px;
+  top: 4px;
+  left: 0;
+  background-color: var(--white);
+  border-radius: 0px 0px 10px 10px;
+  overflow: hidden;
+  box-shadow: 0px 10px 40px #1212121a;
+}
+
+.landing-page .text-wrapper-13 {
+  width: 157px;
+  top: 144px;
+  font-weight: 700;
+  color: var(--black);
+  font-size: 14px;
+  letter-spacing: 0.42px;
+  line-height: 28px;
+  position: absolute;
+  left: 52px;
+  font-family: "Manrope", Helvetica;
+}
+
+.landing-page .make-a-schedule-with {
+  width: 249px;
+  top: 200px;
+  font-weight: 400;
+  color: var(--grey);
+  font-size: 12px;
+  letter-spacing: 0.36px;
+  line-height: 16px;
+  position: absolute;
+  left: 52px;
+  font-family: "Manrope", Helvetica;
+}
+
+.landing-page .card-4 {
+  height: 320px;
+  top: 122px;
+  left: 1404px;
+  position: absolute;
+  width: 376px;
+}
+
+.landing-page .text-wrapper-14 {
+  position: absolute;
+  width: 176px;
+  top: 144px;
+  left: 52px;
+  font-family: "Manrope", Helvetica;
+  font-weight: 700;
+  color: var(--black);
+  font-size: 14px;
+  letter-spacing: 0.42px;
+  line-height: 28px;
+}
+
+.landing-page .overlap-group-2 {
+  position: absolute;
+  width: 252px;
+  height: 67px;
+  top: 200px;
+  left: 52px;
+}
+
+.landing-page .text {
+  position: absolute;
+  width: 1px;
+  top: 0;
+  left: 0;
+  font-family: "Manrope", Helvetica;
+  font-weight: 400;
+  color: var(--grey);
+  font-size: 12px;
+  letter-spacing: 0.36px;
+  line-height: 16px;
+}
+
+.landing-page .after-conducting-an {
+  position: absolute;
+  width: 252px;
+  top: 0;
+  left: 0;
+  font-family: "Manrope", Helvetica;
+  font-weight: 400;
+  color: var(--grey);
+  font-size: 12px;
+  letter-spacing: 0.36px;
+  line-height: 16px;
+}
+
+.landing-page .title-2 {
+  display: flex;
+  flex-direction: column;
+  width: 1059px;
+  height: 80px;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  top: 0;
+  left: 365px;
+}
+
+.landing-page .text-wrapper-15 {
+  position: relative;
+  width: 576px;
+  height: 50px;
+  font-family: "Manrope", Helvetica;
+  font-weight: 700;
+  color: var(--black);
+  font-size: 32px;
+  letter-spacing: 0.48px;
+  line-height: 40px;
+}
+
+.landing-page .header {
+  position: absolute;
+  width: 1881px;
+  height: 763px;
+  top: 25px;
+  left: 0;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.landing-page .overlap {
+  position: absolute;
+  width: 1191px;
+  height: 1517px;
+  top: 17px;
+  left: 1036px;
+}
+
+.landing-page .ellipse {
+  position: absolute;
+  width: 1191px;
+  height: 1226px;
+  top: 291px;
+  left: 0;
+  background-color: var(--primary);
+  border-radius: 595.5px/613px;
+}
+
+.landing-page .card-profile-doctor {
+  display: flex;
+  flex-direction: column;
+  width: 156px;
+  height: 206px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 16px;
+  position: absolute;
+  top: 466px;
+  left: 47px;
+  background-color: var(--white);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px -24px 34px #c7c9d926;
+}
+
+.landing-page .group-3 {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+
+.landing-page .frame-14 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.landing-page .text-wrapper-16 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Manrope", Helvetica;
+  font-weight: 700;
+  color: var(--black);
+  font-size: 14px;
+  letter-spacing: 0.42px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.landing-page .text-wrapper-17 {
+  position: relative;
+  width: fit-content;
+  font-family: "Manrope", Helvetica;
+  font-weight: 400;
+  color: var(--grey);
+  font-size: 12px;
+  letter-spacing: 0.36px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.landing-page .frame-15 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--primary);
+  border-radius: 10px;
+}
+
+.landing-page .text-wrapper-18 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Manrope", Helvetica;
+  font-weight: 600;
+  color: var(--white);
+  font-size: 12px;
+  letter-spacing: 0.36px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.landing-page .female-doctor {
+  position: absolute;
+  width: 798px;
+  height: 723px;
+  top: 6px;
+  left: 47px;
+  object-fit: cover;
+}
+
+.landing-page .frame-wrapper {
+  display: flex;
+  width: 183px;
+  height: 65px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  position: absolute;
+  top: 0;
+  left: 637px;
+}
+
+.landing-page .frame-16 {
+  display: flex;
+  width: 127px;
+  height: 55px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 22px;
+  position: relative;
+  background-color: var(--primary);
+  border-radius: 10px;
+}
+
+.landing-page .text-wrapper-19 {
+  position: relative;
+  width: fit-content;
+  font-family: "Manrope", Helvetica;
+  font-weight: 500;
+  color: var(--white);
+  font-size: 14px;
+  letter-spacing: 0.42px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.landing-page .medical-care-now {
+  position: absolute;
+  width: 895px;
+  top: 181px;
+  left: 98px;
+  font-family: "Manrope", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 96px;
+  letter-spacing: 1.92px;
+  line-height: 70px;
+}
+
+.landing-page .span {
+  color: #121212;
+}
+
+.landing-page .text-wrapper-20 {
+  color: #0a2640;
+}
+
+.landing-page .navbar {
+  display: flex;
+  width: 187px;
+  height: 32px;
+  align-items: center;
+  justify-content: space-around;
+  gap: 110px;
+  position: absolute;
+  top: 66px;
+  left: 108px;
+}
+
+.landing-page .frame-17 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-top: -6px;
+  margin-bottom: -6px;
+  margin-left: -0.5px;
+  margin-right: -0.5px;
+}
+
+.landing-page .text-wrapper-21 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Manrope", Helvetica;
+  font-weight: 700;
+  color: var(--black);
+  font-size: 32px;
+  letter-spacing: 0.96px;
+  line-height: normal;
+}
+
+.landing-page .rectangle-3 {
+  position: absolute;
+  width: 49px;
+  height: 45px;
+  top: 62px;
+  left: 39px;
+  background-color: var(--green);
+  border-radius: 0px 10.8px 10.8px 0px;
+}
+
+.landing-page .rectangle-4 {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  top: 23px;
+  left: 39px;
+}
